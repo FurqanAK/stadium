@@ -1,0 +1,138 @@
+```css
+/* Theme Variables */
+:root {
+    --primary: #0b1f3a;
+    --accent: #f5c542;
+    --background: #f4f6f9;
+    --text: #222;
+}
+
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--background);
+    color: var(--text);
+}
+
+/* Navigation Bar */
+nav {
+    background: var(--primary);
+    padding: 18px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--accent);
+}
+
+/* Hero Banner */
+header {
+    background: linear-gradient(135deg, #0b1f3a, #285786);
+    color: white;
+    text-align: center;
+    padding: 110px 20px 60px;
+}
+
+header h1 {
+    color: var(--accent);
+    font-size: 40px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Sections */
+section {
+    padding: 25px;
+    margin: 20px;
+}
+
+h2 {
+    color: var(--primary);
+    text-align: center;
+}
+
+/* Cards */
+.card {
+    background: white;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+button {
+    background: var(--accent);
+    color: var(--primary);
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #e0ae25;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+}
+
+th {
+    background: var(--primary);
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+tr:hover {
+    background: #f1f5f9;
+}
+
+/* Forms */
+form {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+input, select {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+```
